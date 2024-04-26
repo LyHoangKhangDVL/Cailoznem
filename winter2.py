@@ -1,19 +1,3 @@
-if "/".join(__import__('sys').argv[0].split("\\")).split("/")[-1] != "winter.py":
-    __import__('sys')
-    print("\033[1;34m[ Winter ] CÁI ĐỊT MẸ MÀY !!!!")
-    print("\033[1;34m[ Winter ] Đổi tên tool thành winter.py để sử dụng !!")
-    exit(1)
-try:
-    if "/".join(__file__.split("\\")).split("/")[-1] != "winter.py":
-        __import__('sys')
-        print("")
-        exit(1)
-
-except:
-    pass
- 
- 
- 
 import requests
 import random
 import time
